@@ -1,2 +1,2 @@
 # Flights-Scraper
-Flights Bot 
+Flights Bot - Kayak.com
