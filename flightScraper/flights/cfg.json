@@ -1,0 +1,75 @@
+{
+  "headless": true,
+  "site": "https://www.kayak.com",
+  "explore": {
+    "location": {
+      "from": "TLV",
+      "to": "anywhere"
+    },
+    "dates": {
+      "range": {
+        "year": 2023,
+        "month": 9,
+        "duration": "5,10"
+      },
+      "exact": {
+        "depart": "",
+        "return": ""
+      }
+    },
+    "price": {
+      "currency": "$"
+    },
+    "filters": {
+      "stops": 0,
+      "budget": "",
+      "trip_type": "Anything"
+    }
+  },
+  "flight": {
+    "luggage": {
+      "carry-on_bag": 1,
+      "checked_bag": 0
+    },
+    "times": {
+      "take-off": [
+        "from",
+        "dest"
+      ],
+      "landing": [
+        "",
+        ""
+      ]
+    },
+    "airlines": "",
+    "cabin": "Economy"
+  },
+  "xPaths": {
+    "flight_xpath": "//div[@class=\"_igf _iam _iai\"]",
+    "specific_flight_xpath": "//div[@class=\"Explore-FlightClickoutBox\"]",
+    "price_class": "_ib0 _18 _igh _ial _iaj",
+    "specific_price_class": "option-price",
+    "city_class": "_ib0 _igh _ial _1O _iaj City__Name",
+    "specific_city_class": "header-title",
+    "date_class": "_sS",
+    "specific_date_class": "clickout-box-subtitle",
+    "check_flights_xpath": "//span[@class=\"clickout-text\"]",
+    "luggage_carry_xpath": "(//button[@class=\"bCGf-mod-theme-transparent\" and @aria-label=\"Add bag\"])[1]",
+    "luggage_checked_xpath": "(//button[@class=\"bCGf-mod-theme-transparent\" and @aria-label=\"Add bag\"])[2]",
+    "curr_cheap_dest_xpath": "(//button[@class=\"Button-No-Standard-Style _id7 _iae _h-Y _iam _TS\"])",
+    "nonstop_xpath": "//input[@id=\"valueSetFilter-vertical-stops-0\"]",
+    "flight_box_xpath": "//div[contains(@class, \"nrc6-wrapper\")]",
+    "f_price_class": "f8F1-price-text",
+    "f_times_class": "vmXl vmXl-mod-variant-large",
+    "f_link_class": "dOAU-main-btn-wrap",
+    "f_carry_bag_class": "ac27-inner",
+    "from_xpath": "(//input[contains(@id, \"origin\")])[2]",
+    "to_xpath": "(//input[contains(@id, \"destination\")])[2]",
+    "from_loc_drop_down_xpath": "//ul[@class=\"flight-smarty\"]",
+    "to_loc_drop_down_xpath": "(//ul[@class=\"flight-smarty\"]//child::li[1])[2]",
+    "from_click_drop_xpath": "(//div[@class=\"_j45 _jPS _ib7 _ihM _R7 _6K _RJ _kB1 _6O originInputWrap\"])[1]",
+    "to_click_drop_xpath": "(//div[@class=\"_j45 _jPS _ib7 _ihM _R7 _6K _RJ _kB1 _6O originInputWrap\"])[2]",
+    "to_click_clear": "//input[@class=\"_kcs _kct _kcu _kco _kcp _kcq _kcr _kck _kcl _kcm _kcn _kch _kci _kcj size-m _iae _fI _iHf _iax _iB9 _j5F _j5G _j5H _j5I _iaq _j5E _kbj _i-7 _ihr _ihs _kbk _gB _ihp _i-5 _ihq _i-6 _iad _ioS _i5S _iaa _igh _im8 _iv1\"]",
+    "submit_xpath": "//button[contains(@id, \"submit\")]"
+  }
+}
